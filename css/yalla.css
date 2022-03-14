@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+  direction: rtl;
+}
+body {
+  font-family: 'Cairo', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Start Nav */
+.navbar {
+  background-color: white;
+}
+.navbar img {
+  width: 48px;
+}
+.main-btn {
+  background-color: #ffec00;
+  padding: 5px 15px;
+  font-size: 14px;
+  border: 2px solid #ffec00;
+  transition: 0.3s;
+}
+.main-btn:hover {
+  background-color: rgba(255,195,0,.8);
+  color: #333;
+}
+.navbar .navbar-nav .nav-link {
+  transition: 0.3s;
+  font-size: 15px;
+  color: #333;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: rgba(255,195,0,.8);
+}
+.navbar .navbar-toggler {
+  color: #333;
+  font-size: 25px;
+  border-color: #333;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: rgba(255,195,0,.8);
+}
+/* End Nav */
+/* Start Landing */
+.landing .focus-button {
+  direction: ltr;
+  bottom: -50px;
+}
+.landing .focus-button button {
+  background-color: #333;
+  transition: 0.3s;
+}
+.landing .focus-button button:hover {
+  background-color: rgba(255,195,0,.8);
+}
+/* End Landing */
+/* Start Services */
+.services .box {
+  box-shadow: 0 0 8px 0 rgb(0 0 0 / 9%);
+}
+.services img {
+  max-width: 120px;
+  max-height: 100px;
+}
+.services p {
+  font-size: 14px;
+  color: #777;
+}
+/* End Services */
+/* Start Features */
+.features .feat .feat-img {
+  flex-basis: 50%;
+  background-color: #eee;
+}
+.features .feat .feat-text {
+  flex-basis: 50%;
+}
+.features .feat .feat-text .content {
+  max-width: 300px;
+}
+.features .feat .feat-text p {
+  color: #777;
+  font-size: 14px;
+}
+/* End Features */
+/* Start App */
+.app {
+  background-color: rgba(255,195,0,.8);
+  overflow: hidden;
+  color: white;
+}
+.app .mobile {
+  position: relative;
+  transform: translateY(65px);
+}
+/* End App */
+/* Start Contact */
+.contact .logo {
+  width: 64px;
+}
+.contact .content p a {
+  transition: 0.3s;
+}
+.contact .content p a:hover {
+  color: rgba(255,195,0,.8);
+}
+.contact .icons a {
+  transition: 0.3s;
+  font-size: 30px;
+}
+.contact .icons a:hover {
+  color: rgba(255,195,0,.8);
+}
+.contact .imags img {
+  width: 120px;
+}
+/* End Contact */
+/* Start Footer */
+.footer {
+  background-color: #eee;
+}
+/* End Footer */
